@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "Instalando ferramentas..."
+pkg install python openssl openssh
+echo "Copiando arquivo..."
+mv pysite.sh $PATH/sitem
+echo "Digite sitem para ativar."
